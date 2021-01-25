@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+
+.main_container {
+
+    margin-top: 3rem;
+    background-color: gainsboro;
+}
+
+.add_container {
+    padding: 3px;
+}
+
+.result_container {
+  height: 70vh;
+  width: 150vh;
+  background-color: gray;
+}

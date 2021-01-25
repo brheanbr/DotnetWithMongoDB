@@ -1,0 +1,39 @@
+<form [formGroup] = "contactForm">
+  <div class="container mt-4" style="padding: 0.2rem 15rem">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label">First Name</label>
+          <input class="form-control" type="text" formControlName="firstName" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label">Last Name</label>
+          <input class="form-control" type="text" formControlName="lastName" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label">Address</label>
+          <input class="form-control" type="text" formControlName="address" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label class="control-label">Contact Number</label>
+          <input class="form-control" type="text" formControlName="contactNumber" />
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-md-2 mb-4">
+        <button type="button" class="btn btn-primary" style="width:100%;" (click)="submit()">submit</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+
